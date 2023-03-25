@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="next-head-count" content="2" />
+    <link
+      rel="preload"
+      href="_next/static/css/bc67f2d8a114ca5b.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="_next/static/css/bc67f2d8a114ca5b.css"
+      data-n-g=""
+    />
+    <noscript data-n-css=""></noscript>
+    
+  </head>
+  <body>
+    <div id="__next">
+      <div class="app">
+        <style>
+  
+        </style>
+        <div
+          class="flow-root overflow-x-hidden"
+          style="
+            background-color: #141041;
+            background-image: url(%27/backgroundImages/404);
+            background-size: 100% 95%;
+            background-repeat: no-repeat;
+          ">
+          <!-- <div
+            class="Row flex justify-between  py-12 px-[min(160px,8vw)]">
+            <button
+              class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal">
+              Register
+            </button>
+          </div> -->
+          <!-- <video autoplay muted loop id="myVideo">
+            <source src="image/473287184.mp4" type="video/mp4">
+          </video> -->
+          <div class="logo_header">
+            <img src="image/logoWorld.png" alt="">
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>The worlds skills challenge is here again ..its the zonals. If you have the interest to under go training and test yourself in your software development skills, network with other developers and travel the world in the process.
+                <button
+                class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal">
+                <a href="https://forms.gle/RDLDdoECDow3PScZA">Apply</a>
+              </button>
+              </p>
+            </div>
+            <div class="col"></div>
+          </div>
+
+          <div class="content_area">
+            <span
+              class="content_areah1 font-bold text-transparent bg-clip-text"
+              style="
+                background: radial-gradient(
+                  circle at top right,
+                  #39d0d8,
+                  #2b6aff
+                );
+                background-clip: text;
+                -webkit-background-clip: text;"
+              >Treasure Hut 2023</span>
+          </div>
+          <section
+            class="grid-child-center grid-cover-container mb-16 relative">
+            <div class="grid-cover-content children-center">
+              <div
+                class="font-light text-[64px] mobile:text-[30px] text-white mb-4 mt-14 mobile:mt-9 leading-[60px] mobile:leading-[32px]" >
+                <div class="club_name">
+                  <!-- <span
+                  class="font-bold text-transparent bg-clip-text"
+                  style="
+                    background: radial-gradient(
+                      circle at top right,
+                      #39d0d8,
+                      #2b6aff
+                    );
+                    background-clip: text;
+                    -webkit-background-clip: text;"
+                  >WORLD SKILL </span> -->
+                </div>
+
+              </div>
+              <div
+                class="Row gap-5 mobile:gap-4 mb-16 mobile:mb-6 grid grid-cols-2-fr">
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb clickable clickable-filter-effect home-rainbow-button-bg text-white mobile:text-xs px-5 mobile:px-4" >
+                  <div class="Row flex items-center gap-2">
+                    <div>More</div>
+                    </div>
+                
+                ><button
+                  class="Button select-none inline-flex justify-center items-center gap-2 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb clickable clickable-filter-effect frosted-glass-teal text-white mobile:text-xs px-5 mobile:px-4 forsted-blur">
+                  <div class="Row flex items-center gap-2">
+                    <div>Explore</div>
+                  </div>
+                </button>
+              </div>
+
+              <!--  -->
+            </div>
+          </section>
+      
+              <!-- countdown section -->
+              <!-- <h1 class="wave">&#128640</h1> -->
+              
+              <div class="countdown_container">
+                <div id="countdown">
+                  <ul>
+                    <li><span class="days"></span>days</li>
+                    <li><span class="hours"></span>Hours</li>
+                    <li><span class="minutes"></span>Minutes</li>
+                    <li><span class="seconds"></span>Seconds</li>
+                  </ul>
+                </div>
+            </div>
+            
+          
+            
+          <script>
+            // Countdown script
+            // Get html elements
+  let day = document.querySelector('.days');
+  let hour = document.querySelector('.hours');
+  let minute = document.querySelector('.minutes');
+  let second = document.querySelector('.seconds');
+
+function setCountdown() {
+
+  // Set countdown date
+  let countdownDate = new Date('April 30, 2023 16:40:25').getTime();
+
+  // Update countdown every second
+  let updateCount = setInterval(function(){
+
+      // Get today's date and time
+      let todayDate = new Date().getTime();
+
+      // Get distance between now and countdown date
+      let distance = countdownDate - todayDate;
+
+      let days = Math.floor(distance / (1000 * 60 * 60 *24));
+
+      let hours = Math.floor(distance % (1000 * 60 * 60 *24) / (1000 * 60 *60));
+
+      let minutes = Math.floor(distance % (1000 * 60 * 60 ) / (1000 * 60));
+
+      let seconds = Math.floor(distance % (1000 * 60) / 1000);
+
+      // Display values in html elements
+      day.textContent = days;
+      hour.textContent = hours;
+      minute.textContent = minutes;
+      second.textContent = seconds;
+
+      // if countdown expires
+      if(distance < 0){
+          clearInterval(updateCount);
+          document.querySelector(".container").innerHTML = '<h1>EXPIRED</h1>'
+      }
+  }, 1000)
+}
+
+setCountdown()
+
+          </script>
+          </div>
+              <!-- countdown section -->
+          <section
+            class="grid-child-center overflow-hidden relative mx-auto tablet:mx-5 px-24 tablet:p-8 max-w-[1320px] min-h-[506px] hidden rounded-[100px] mobile:rounded-[40px]"
+            style="
+              background: radial-gradient(
+                  at center top,
+                  transparent 20%,
+                  hsl(245, 60%, 16%, 0.2)
+                ),
+                url(%27/backgroundImages/404-2), #1b1659;
+              box-shadow: 8px 8px 10px rgba(20, 16, 65, 0.05),
+                -8px -8px 10px rgba(197, 191, 255, 0.05),
+                inset 0 6px 20px rgba(197, 191, 255, 0.2),
+                inset 0 -1px 25px rgba(197, 191, 255, 0.1);
+              background-size: 100% 100%;
+            "
+            >
+            <!-- PARTNERS SECTION -->
+            <div
+              class="absolute inset-0 opacity-30"
+              style="
+                background: linear-gradient(
+                  245.22deg,
+                  #da2eef 7.97%,
+                  #2b6aff 49.17%,
+                  #39d0d8 92.1%
+                );
+                mask-image: url(%27/backgroundImages/404-3);
+                -webkit-mask-image: url(%27/backgroundImages/404-3);
+                mask-size: cover;
+                -webkit-mask-size: cover;
+              "
+            ></div>
+            <div>
+              <div class="mb-8">
+                <div
+                  class="w-10 h-px my-2 mx-auto rounded-full"
+                  style="
+                    background: radial-gradient(
+                      39.84% 47.5% at 96.82% 58.33%,
+                      #39d0d8 0%,
+                      #2b6aff 100%
+                    );
+                  "
+                ></div>
+
+                <div class="text-lg">
+                  Partners and Organizers
+                </div>
+              </div>
+              <div
+                class="grid gap-5 grid-cols-4 tablet:grid-cols-2 mobile:grid-cols-1"
+              >
+                <div
+                  class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                >
+
+                  <!-- Partners Image -->
+                  <div class="font-semibold text-lg text-white mb-2">
+                    <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                  </div>
+                  <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </div>
+                  <button
+                    class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                  >
+                    Explore
+                  </button>
+                </div>
+                <div
+                  class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                >
+              
+                  <div class="font-semibold text-lg text-white mb-2">
+                    <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                  </div>
+                  <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </div>
+                  <button
+                    class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                  >
+                    Explore
+                  </button>
+                </div>
+                <div
+                  class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                >
+                
+                  <div class="font-semibold text-lg text-white mb-2">
+                    <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                  </div>
+                  <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                  </div>
+                  <button
+                    class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                  >
+                    Explore
+                  </button>
+                </div>
+                <div
+                  class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                >
+                  <div class="font-semibold text-lg text-white mb-2">
+                
+                    <img style="height: 90px; border-radius: 50%;" src="logo/logoAxl8t.png" alt="">
+                  </div>
+                  <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                  </div>
+                  <button
+                    class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                  >
+                    Explore
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- PARTNERS SECTION -->
+          </section>
+          <section class="grid-child-center grid-cover-container">
+            <div
+              class="w-screen h-full"
+              style="
+                background: url(%27/backgroundImages/404-4) 0% 0% / 100% 100%;
+              "
+            ></div>
+            <div
+              class="max-w-[1220px] px-14 tablet:px-4 mt-28 mx-16 tablet:mx-4 mb-44"
+            >
+              <div class="mb-8">
+                <div
+                  class="w-10 h-px my-2 mx-auto rounded-full"
+                  style="
+                    background: radial-gradient(
+                      39.84% 47.5% at 96.82% 58.33%,
+                      #39d0d8 0%,
+                      #2b6aff 100%
+                    );
+                  "
+                ></div>
+                <div class="text-lg">
+                    Info about the Treasure Hunt 2023
+                </div>
+              </div>
+              <div
+                class="grid gap-6 grid-cols-3 tablet:grid-cols-1 mobile:grid-cols-1 justify-items-center"
+              >
+                <div
+                  class="Card max-w-[356px] grid children-center frosted-glass-smoke forsted-blur-sm py-6 px-10 rounded-3xl"
+                  style="grid-template-rows: auto auto 1fr; align-items: normal"
+                >
+                  <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                    <div class="Icon grid h-[max-content] w-[max-content]">
+                      <img
+                        src="icons/home-order-book-AMM.svg"
+                        alt="home-order-book-AMM"
+                        class="select-none h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                  <div class="font-semibold text-lg text-white mb-2">
+                      Prizes
+                  </div>
+                  <div class="font-light text-[#c4d6ff] mb-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, ut. Magni porro quo maxime obcaecati.
+                  </div>
+                </div>
+                <div
+                  class="Card max-w-[356px] grid children-center frosted-glass-smoke forsted-blur-sm py-6 px-10 rounded-3xl"
+                  style="grid-template-rows: auto auto 1fr; align-items: normal"
+                >
+                  <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                    <div class="Icon grid h-[max-content] w-[max-content]">
+                      <img
+                        src="icons/home-yield.svg"
+                        alt="home-yield"
+                        class="select-none h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                  <div class="font-semibold text-lg text-white mb-2">
+                    Programme Outline
+                  </div>
+                  <div class="font-light text-[#c4d6ff] mb-5">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eligendi vel ducimus facilis accusamus?
+                  </div>
+                </div>
+                <div
+                  class="Card max-w-[356px] grid children-center frosted-glass-smoke forsted-blur-sm py-6 px-10 rounded-3xl"
+                  style="grid-template-rows: auto auto 1fr; align-items: normal"
+                >
+                  <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                    <div class="Icon grid h-[max-content] w-[max-content]">
+                      <img
+                        src="icons/home-pool.svg"
+                        alt="home-pool"
+                        class="select-none h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                  <div class="font-semibold text-lg text-white mb-2">
+                    Treasure Hunt 2023
+                  </div>
+                  <div class="font-light text-[#c4d6ff] mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe doloremque provident blanditiis!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+            <!-- PARTICIPANTS SECTION -->
+            
+          <section
+          class="grid-child-center overflow-hidden relative mx-auto tablet:mx-5 px-24 tablet:p-8 max-w-[1320px] min-h-[506px] hidden rounded-[100px] mobile:rounded-[40px]"
+          >
+          <div>
+            <div class="mb-8">
+              <div
+                class="w-10 h-px my-2 mx-auto rounded-full"
+                style="
+                  background: radial-gradient(
+                    39.84% 47.5% at 96.82% 58.33%,
+                    #39d0d8 0%,
+                    #2b6aff 100%
+                  );
+                "
+              ></div>
+
+              <div class="text-lg">
+                PARTICIPANTS
+              </div>
+            </div>
+            <div
+              class="grid gap-5 grid-cols-4 tablet:grid-cols-2 mobile:grid-cols-1"
+            >
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+
+                <!-- Partners Image -->
+                <div class="font-semibold text-lg text-white mb-2">
+                  <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+            
+                <div class="font-semibold text-lg text-white mb-2">
+                  <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+              
+                <div class="font-semibold text-lg text-white mb-2">
+                  <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+                <div class="font-semibold text-lg text-white mb-2">
+              
+                  <img style="height: 90px; border-radius: 50%;" src="logo/logoAxl8t.png" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+          <!-- PARTNERS SECTION -->
+
+
+          <!-- PARTICIPANTS SECTION -->
+            
+          <section
+          class="grid-child-center overflow-hidden relative mx-auto tablet:mx-5 px-24 tablet:p-8 max-w-[1320px] min-h-[506px] hidden rounded-[100px] mobile:rounded-[40px]"
+          >
+          <div>
+            <div class="mb-8">
+            </div>
+            <div
+              class="grid gap-5 grid-cols-4 tablet:grid-cols-2 mobile:grid-cols-1"
+            >
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+
+                <!-- Partners Image -->
+                <div class="font-semibold text-lg text-white mb-2">
+                  <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+            
+                <div class="font-semibold text-lg text-white mb-2">
+                  <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+              
+                <div class="font-semibold text-lg text-white mb-2">
+                  <img style="height: 90px; border-radius: 50%;" src="logo/Myles.jpg" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+              <div
+                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+              >
+                <div class="font-semibold text-lg text-white mb-2">
+              
+                  <img style="height: 90px; border-radius: 50%;" src="logo/logoAxl8t.png" alt="">
+                </div>
+                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <button
+                  class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal"
+                >
+                  Explore
+                </button>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+          <!-- PARTNERS SECTION -->
+        <section class="grid-child-center grid-cover-container">
+          <!-- <div class="w-screen h-full" style="background: url(%27/backgroundImages/404-4) 0% 0% / 100% 100%; "></div> -->
+          <div
+            class="max-w-[1220px] px-14 tablet:px-4 mt-28 mx-16 tablet:mx-4 mb-44"
+          >
+            <div class="mb-8">
+            
+          </div>
+        </section>
+            <!-- END PARTICIPANTS SECTION -->
+
+          <footer
+            class="pt-56 overflow-hidden"
+            style="background: url(%27/backgroundImages/404-5) 0 0 / 100% 100%"
+          >
+            <div
+              class="grid mobile:gap-14 justify-around px-[10%] grid-cols-4 tablet:grid-cols-3 mobile:grid-cols-1 gap-16 gap-y-4"
+            >
+              <div>
+                <div class="mb-8">
+                  <div class="text-sm mb-3 tablet:text-center">ABOUT</div>
+                  <div
+                    class="w-6 h-px my-2 rounded-full tablet:mx-auto"
+                    style="
+                      background: radial-gradient(
+                        39.84% 47.5% at 96.82% 58.33%,
+                        #39d0d8 0%,
+                        #2b6aff 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="Col flex flex-col gap-6">
+                  <a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  >
+                </div>
+              </div>
+              <div>
+                <div class="mb-8">
+                  <div class="text-sm mb-3 tablet:text-center">PROTOCOL</div>
+                  <div
+                    class="w-6 h-px my-2 rounded-full tablet:mx-auto"
+                    style="
+                      background: radial-gradient(
+                        39.84% 47.5% at 96.82% 58.33%,
+                        #39d0d8 0%,
+                        #2b6aff 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="Col flex flex-col gap-6">
+                  <a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >AXL8T</a
+                  >
+                </div>
+              </div>
+              <div>
+                <div class="mb-8">
+                  <div class="text-sm mb-3 tablet:text-center">SUPPORT</div>
+                  <div
+                    class="w-6 h-px my-2 rounded-full tablet:mx-auto"
+                    style="
+                      background: radial-gradient(
+                        39.84% 47.5% at 96.82% 58.33%,
+                        #39d0d8 0%,
+                        #2b6aff 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="Col flex flex-col gap-6">
+                  <a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >Getting Started</a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                    href="#"
+                    >FAQ</a
+                  >
+                </div>
+              </div>
+              <div class="tablet:col-span-full tablet:justify-self-center">
+                <div class="mb-8 tablet:hidden">
+                  <div class="text-sm mb-3">SOCIAL HANDLES</div>
+                  <div
+                    class="w-6 h-px my-2 rounded-full"
+                    style="
+                      background: radial-gradient(
+                        39.84% 47.5% at 96.82% 58.33%,
+                        #39d0d8 0%,
+                        #2b6aff 100%
+                      );
+                    "
+                  ></div>
+                </div>
+                <div class="flex flex-col tablet:flex-row gap-6 tablet:gap-10">
+                  <a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white"
+                    href="#"
+                    ><div class="Row flex items-center gap-2">
+                      <div
+                        class="Icon grid h-[max-content] w-[max-content] frosted-glass-teal p-1.5 rounded-lg text"
+                      >
+                        <img
+                          src="icons/media-twitter.svg"
+                          alt="media-twitter"
+                          class="select-none w-5 h-5 tablet:w-6 tablet:h-6"
+                        />
+                      </div>
+                      <div class="tablet:hidden">Twitter</div>
+                    </div></a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white"
+                    href="#"
+                    ><div class="Row flex items-center gap-2">
+                      <div
+                        class="Icon grid h-[max-content] w-[max-content] frosted-glass-teal p-1.5 rounded-lg text"
+                      >
+                        <img
+                          src="icons/media-medium.svg"
+                          alt="media-medium"
+                          class="select-none w-5 h-5 tablet:w-6 tablet:h-6"
+                        />
+                      </div>
+                      <div class="tablet:hidden">Medium</div>
+                    </div></a
+                  ><a
+                    tabindex="0"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white"
+                    href="#"
+                    ><div class="Row flex items-center gap-2">
+                      <div
+                        class="Icon grid h-[max-content] w-[max-content] frosted-glass-teal p-1.5 rounded-lg text"
+                      >
+                        <img
+                          src="icons/media-discord.svg"
+                          alt="media-discord"
+                          class="select-none w-5 h-5 tablet:w-6 tablet:h-6"
+                        />
+                      </div>
+                      <div class="tablet:hidden">Discord</div>
+                    </div></a
+                  >
+                  <div class="Row flex items-center gap-2">
+                    <div>
+                      <div class="PopoverButton">
+                        <div
+                          class="Row flex text-[#c4d6ff] hover:text-white items-center gap-1 cursor-pointer"
+                        >
+                          <div
+                            class="Icon grid h-[max-content] w-[max-content] frosted-glass-teal p-1.5 rounded-lg text"
+                          >
+                            <img
+                              src="icons/media-telegram.svg"
+                              alt="media-telegram"
+                              class="select-none w-5 h-5 tablet:w-6 tablet:h-6"
+                            />
+                          </div>
+                          <div class="tablet:hidden">Telegram</div>
+                          <div
+                            class="Icon grid h-[max-content] w-[max-content]"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              aria-hidden="true"
+                              class="select-none h-4 w-4"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="Image mx-auto p-20 transform scale-125 pointer-events-none"
+              src="logo/logoAxl8t.png"
+              alt="logo-with-text"
+            />
+            <div class="alright_section">
+              <a  href="#">Developed by AXLR8. &copy; All Rights Reserved</a>
+            </div>
+          </footer>
+        </div>
+        <div
+          class="Col flex flex-col items-end mobile:items-stretch pointer-events-none"
+          style="
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            top: unset;
+            left: unset;
+            z-index: 9999;
+          "
+        ></div>
+      </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/",
+        "query": {},
+        "buildId": "qtSO-4Fiv-_5uAOL-L4DL",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+  </body>
+</html>
